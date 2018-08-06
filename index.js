@@ -7,10 +7,10 @@ function theBeatlesPlay(musicians, instruments) {
   return arr
 }
 
-function johnLennonFacts(argument){
+function johnLennonFacts(facts){
   const arr = [];
   let i = 0;
-  while (i < argument.length){
+  while (i < facts.length){
     arr.push(`${argument[i]}!!!`);
     i++;
   }
